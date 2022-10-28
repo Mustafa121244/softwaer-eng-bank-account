@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="BankAcount.exe" version="1.0.0.2" publicKeyToken="55974d8db6e8bb91" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="BankAcount" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="BankAcount.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BankAcount.exe" size="650240">
+      <assemblyIdentity name="BankAcount" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>0SZ83+sBr+qwd34P7O0cokw4q8KK9LfHK27dJGTZcUQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="BankAcount.exe.config" size="515">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4wRy7Rj+QRMIvMjeVOc5i/gDk6qF2IVnaW8lXqZrnrY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Database11.accdb" size="524288">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZrT/koUFm59GRy8qPcHsaFz3bP7KX0ioO7IXbtUrluw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-04I9UQI\mu" issuerKeyHash="ccde20ef0f4e01c3ec98693f8d612ba28f24f392" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>24N41dwh5ER1N3/gHpIaYZHTajDlUHaFkoq7mPrdons=</DigestValue></Reference></SignedInfo><SignatureValue>HyLCwKJS6gcOq2xhXeFbw+WNBf7NLdPd2On66pRWs8wRuKi5EtOBDIciOEQkvtOuj4BgYc5R/0xkyk8oKy0ZYz9oWCDxuxKhFzx+jlsGCCOgSIQ9wkY5eoyU/DEMamQN/LiyaWHYyc2DQ/i0ltgpXatd75ZQWPTZDALwhYkSZTg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vMaw4n59s67sgYR0mvLdRRfayvapQ9NP6a4i8rPB8BLLve/g8ROTAHlL1nvxXvMEfSlwuVXFERerBIVu8pH+LzUUC27GJ7p1DCqbNEQGpRnN5r9sDtOzIFboFxp4alaQAZgT2jPG0hMOIrBM05HHrAxhYKPXpvqisCRXLYxRSck=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7ba2ddfa98bb8a92857650e5306ad391611a921ee07f377544e421dcd57883db" Description="" Url=""><as:assemblyIdentity name="BankAcount.exe" version="1.0.0.2" publicKeyToken="55974d8db6e8bb91" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-04I9UQI\mu</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>chTWGB3BHce/ThNmHV+UjxVTfCg6tD8W4/ujn4Nwyec=</DigestValue></Reference></SignedInfo><SignatureValue>u0nhURkDFrIXqzpgNYyUdbVztndWv+yup2WBVzyuX5g8YQu+ousChnCjOfwinu8rJ6VFBSQPB4PhPwOCGZbBRouS82minRNqQzN5Gglj9jflOLZZ1/mZgATgNwSAfCIuu0Z1vNZngAahXj6Qn/6jIp2jgCW4AUNkh2Ur9+qq88g=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vMaw4n59s67sgYR0mvLdRRfayvapQ9NP6a4i8rPB8BLLve/g8ROTAHlL1nvxXvMEfSlwuVXFERerBIVu8pH+LzUUC27GJ7p1DCqbNEQGpRnN5r9sDtOzIFboFxp4alaQAZgT2jPG0hMOIrBM05HHrAxhYKPXpvqisCRXLYxRSck=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQE4I7PLDJ7LpH2OpkASEKSTANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQARABFAFMASwBUAE8AUAAtADAANABJADkAVQBRAEkAXABtAHUwHhcNMjIwNzExMDkzODUzWhcNMjMwNzExMTUzODUzWjAvMS0wKwYDVQQDHiQARABFAFMASwBUAE8AUAAtADAANABJADkAVQBRAEkAXABtAHUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALzGsOJ+fbOu7IGEdJry3UUX2sr2qUPTT+muIvKzwfASy73v4PETkwB5S9Z78V7zBH0pcLlVxREXqwSFbvKR/i81FAtuxie6dQwqmzREBqUZzea/bA7TsyBW6BcaeGpWkAGYE9ozxtITDiKwTNORx6wMYWCj16b6orAkVy2MUUnJAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAfVuB2q6adm9413H3JMK0sxsKGRN3i5m8CP0ftrG9I2GqqxhLKHVVXjyMzpugyQUsY7C7XAePKM78CX4QTDau5VzWXPcPu88zYGueyGTA8trSP9TU+XgOinyWhBdS10hn5ydcyelpWTAYyOCKfpFDCCgXhMf4QsQk+6GjcMFewoo=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

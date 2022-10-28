@@ -1,0 +1,16 @@
+c:\users\mu\documents\visual studio 2012\Projects\BankAcount\BankAcount\bin\Debug\BankAcount.exe.config
+c:\users\mu\documents\visual studio 2012\Projects\BankAcount\BankAcount\obj\Debug\BankAcount.Form1.resources
+c:\users\mu\documents\visual studio 2012\Projects\BankAcount\BankAcount\obj\Debug\BankAcount.Resources.resources
+c:\users\mu\documents\visual studio 2012\Projects\BankAcount\BankAcount\obj\Debug\BankAcount.vbproj.GenerateResource.Cache
+c:\users\mu\documents\visual studio 2012\Projects\BankAcount\BankAcount\bin\Debug\BankAcount.exe
+c:\users\mu\documents\visual studio 2012\Projects\BankAcount\BankAcount\bin\Debug\BankAcount.pdb
+c:\users\mu\documents\visual studio 2012\Projects\BankAcount\BankAcount\bin\Debug\BankAcount.xml
+c:\users\mu\documents\visual studio 2012\Projects\BankAcount\BankAcount\obj\Debug\BankAcount.exe
+c:\users\mu\documents\visual studio 2012\Projects\BankAcount\BankAcount\obj\Debug\BankAcount.xml
+c:\users\mu\documents\visual studio 2012\Projects\BankAcount\BankAcount\obj\Debug\BankAcount.pdb
+c:\users\mu\documents\visual studio 2012\Projects\BankAcount\BankAcount\bin\Debug\BankAcount.exe.manifest
+c:\users\mu\documents\visual studio 2012\Projects\BankAcount\BankAcount\bin\Debug\BankAcount.application
+c:\users\mu\documents\visual studio 2012\Projects\BankAcount\BankAcount\obj\Debug\BankAcount.exe.manifest
+c:\users\mu\documents\visual studio 2012\Projects\BankAcount\BankAcount\obj\Debug\BankAcount.application
+c:\users\mu\documents\visual studio 2012\Projects\BankAcount\BankAcount\obj\Debug\BankAcount.Form2.resources
+c:\users\mu\documents\visual studio 2012\Projects\BankAcount\BankAcount\bin\Debug\Database11.accdb
